@@ -1,0 +1,35 @@
+[{
+  "_id": {
+    "$oid": "653907f6ebb9ad92399564f5"
+  },
+  "indexes": [
+    {
+      "v": 2,
+      "key": {
+        "_id": 1
+      },
+      "name": "_id_"
+    },
+    {
+      "v": 2,
+      "key": {
+        "organId": 1
+      },
+      "name": "organId_1",
+      "background": true,
+      "unique": true
+    },
+    {
+      "v": 2,
+      "key": {
+        "name": 1
+      },
+      "name": "name_1",
+      "background": true,
+      "unique": true
+    }
+  ],
+  "uuid": "75afbb01022748589249f25351b045f0",
+  "collectionName": "HumanOrgans",
+  "type": "collection"
+}]

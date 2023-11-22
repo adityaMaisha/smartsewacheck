@@ -1,0 +1,46 @@
+[{
+  "_id": {
+    "$oid": "64f2e4e08b5f1e79740de522"
+  },
+  "employee_code": "64F2E4E0D1608",
+  "department_uuid": "SWxjd3JNckpyMFg5YXlWRnpqOVBhQT09",
+  "date_of_birth": "2023-09-02",
+  "employee_first_name": "Super",
+  "employee_last_name": "Admin",
+  "date_of_joining": "2023-09-02",
+  "gender": "male",
+  "email_id": "phpfact@gmail.com",
+  "mobile_number": "1234567890",
+  "blood_group": "O+",
+  "country": "101",
+  "state": "13",
+  "city": "1192",
+  "address": "test address",
+  "pin_code": "131001",
+  "emergency_contact": "1000000000",
+  "office_email": "admin@smartsewa.com",
+  "office_mobile": "2020202020",
+  "pan_card_number": "ABCTY1234D",
+  "address_proof_id_no": "test address",
+  "employee_bank_name": "Macy Soto",
+  "bank_account_holder_name": "Ulla Nielsen",
+  "bank_account_type": "saving",
+  "bank_account_number": "909090909090",
+  "confirm_account_number": "909090909090",
+  "bank_ifsc_code": "ABAB505010",
+  "bank_branch": "Ut dignissimos culpa",
+  "bank_city": "Livingstone",
+  "reference_name": "Julian Stanley123",
+  "created_at": {
+    "$date": "2023-09-02T07:31:44.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-09-04T07:26:33.000Z"
+  },
+  "employee_profile": "documents/TThe21OJ7iVaHZbYpyF7XCcPgIts31QPjgsHuikm.jpg",
+  "upload_pan_card_attachment": "documents/Lh6iTIq7xgK2iqmVyVIUJ8TvW3qslsvY7FQJhKw7.jpg",
+  "upload_id_proof_attachment": "documents/fF6Xzjyl8yKVdFwcN70K0GECQcNPT6QWUiPb9gL1.png",
+  "upload_other_documents": "documents/Ll7VzxT0zc2xOURXTU0eReLN3mpYdCIM0lYzFxmv.jpg",
+  "password": "$2y$10$.yiiVndwR2LbcZVrUwRZxuAbY8j/o.YBVdAd0Vbv9i32f1kVl0YZC",
+  "employee_status": "active"
+}]

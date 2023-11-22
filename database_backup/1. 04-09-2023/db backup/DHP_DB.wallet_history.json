@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "6543769174497b5fed0a51ec"
+  },
+  "vendor_id": "SSVENDOR1122",
+  "wallet_id": "SSWALLET1122",
+  "wallet_mode": "Recharge",
+  "pre_wallet_amt": 0,
+  "current_wallet_amt": 200,
+  "added_wallet_amt": 200,
+  "added_date": "2023-11-02 : 10:14",
+  "updated_at": {
+    "$date": "2023-11-02T10:14:41.147Z"
+  },
+  "created_at": {
+    "$date": "2023-11-02T10:14:41.147Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "654376bc74497b5fed0a51ef"
+  },
+  "vendor_id": "SSVENDOR1122",
+  "wallet_id": "SSWALLET1122",
+  "wallet_mode": "Recharge",
+  "pre_wallet_amt": 200,
+  "current_wallet_amt": 700,
+  "added_wallet_amt": 500,
+  "added_date": "2023-11-02 : 10:15",
+  "updated_at": {
+    "$date": "2023-11-02T10:15:24.305Z"
+  },
+  "created_at": {
+    "$date": "2023-11-02T10:15:24.305Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65437efd74497b5fed0a51f2"
+  },
+  "vendor_id": "SSVENDOR1122",
+  "wallet_id": "SSWALLET1122",
+  "wallet_mode": "Recharge",
+  "pre_wallet_amt": 700,
+  "current_wallet_amt": 900,
+  "added_wallet_amt": 200,
+  "added_date": "2023-11-02 : 10:50",
+  "updated_at": {
+    "$date": "2023-11-02T10:50:37.960Z"
+  },
+  "created_at": {
+    "$date": "2023-11-02T10:50:37.960Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "654394ed74497b5fed0a51f5"
+  },
+  "vendor_id": "SSVENDOR1122",
+  "wallet_id": "SSWALLET1122",
+  "wallet_mode": "Recharge",
+  "pre_wallet_amt": 900,
+  "current_wallet_amt": 1100,
+  "added_wallet_amt": 200,
+  "added_date": "2023-11-02 : 12:24",
+  "updated_at": {
+    "$date": "2023-11-02T12:24:13.395Z"
+  },
+  "created_at": {
+    "$date": "2023-11-02T12:24:13.395Z"
+  }
+}]

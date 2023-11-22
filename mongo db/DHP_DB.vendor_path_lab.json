@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "6501635ff649552d6e09dee6"
+  },
+  "vendor_id": "VEN_6501635EDEE80",
+  "vendor_name": "test Vendor Name",
+  "head_name": "Test Head Name",
+  "services": "CMO (Chief Marketing Officer)",
+  "address": "Test Full Address",
+  "mobile_number": "5050505050",
+  "email_id": "phpfact@gmail.com",
+  "country": "101",
+  "state": "13",
+  "city": "1192",
+  "office_email": "office@gmail.com",
+  "password": "$2y$10$3veYo/V8LVhvyp2hXwLlZ.Q36xVuNEbK4jAuvofaszU5pLqnzZiXy",
+  "contact_person_name": "Pandit Sachin",
+  "contact_per_mobile": "7897987897",
+  "adhaar_card_number": "252525252525",
+  "pan_card_number": "ABCDE1234F",
+  "gst_number": "12312321321312321312321",
+  "employee_bank_name": "Bank Test Name",
+  "bank_account_holder_name": "Test Account Holder Name",
+  "bank_account_type": "saving",
+  "bank_account_number": "909090909090",
+  "confirm_account_number": "909090909090",
+  "bank_ifsc_code": "ABAB5050",
+  "bank_branch": "Axis Bank Ring Road 123",
+  "reference_name": null,
+  "vendor_status": "active",
+  "created_at": {
+    "$date": "2023-09-13T07:23:10.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-09-13T07:23:10.000Z"
+  },
+  "employee_profile": "enWOmaYxKsWsKChdWoUjiJ68PaVWbnsYUmrFKKjt.png",
+  "registration_docs": "LdipSJePPE9XA0g4LMbM72zwasQ2TPSRsATPdXwV.png",
+  "upload_pan_card_attachment": "wfxCCAXgwqsbOMjTEgwEbeVEsyERwkvGvhoptcr4.jpg",
+  "gst_certificate": "jQG3U2ntFoIhErPaQhE2Yw5TuZWz9yXz7HjPx3pg.jpg"
+}]

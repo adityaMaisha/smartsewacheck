@@ -1,0 +1,105 @@
+[{
+  "_id": {
+    "$oid": "64ec46fcddf3f1481d063ac2"
+  },
+  "migration": "2019_12_14_000001_create_personal_access_tokens_table",
+  "batch": 1
+},
+{
+  "_id": {
+    "$oid": "64ec91f7d065b00b79039f52"
+  },
+  "migration": "2023_08_28_062754_create_employees_table",
+  "batch": 2
+},
+{
+  "_id": {
+    "$oid": "64eda24de74e3daca10bbba2"
+  },
+  "migration": "2023_08_29_074432_create_ec_front_functions_table",
+  "batch": 3
+},
+{
+  "_id": {
+    "$oid": "64eda9ddc66753bedc08f702"
+  },
+  "migration": "2023_08_29_081550_create_roles_type_table",
+  "batch": 4
+},
+{
+  "_id": {
+    "$oid": "64eda9ddc66753bedc08f703"
+  },
+  "migration": "2023_08_29_081801_create_set_permission_table",
+  "batch": 4
+},
+{
+  "_id": {
+    "$oid": "64eda9dec66753bedc08f704"
+  },
+  "migration": "2023_08_29_081822_create_front_functions_table",
+  "batch": 4
+},
+{
+  "_id": {
+    "$oid": "64f5bfec84f6f4318302cdc2"
+  },
+  "migration": "2023_09_04_113012_create_path_labs_table",
+  "batch": 5
+},
+{
+  "_id": {
+    "$oid": "6540f9a4d5fce5741404eba2"
+  },
+  "migration": "2023_10_31_125605_create_client_wallet",
+  "batch": 6
+},
+{
+  "_id": {
+    "$oid": "65423d99d84df94b3901ced2"
+  },
+  "migration": "2023_11_01_115813_create_client_recharge",
+  "batch": 7
+},
+{
+  "_id": {
+    "$oid": "65423d99d84df94b3901ced3"
+  },
+  "migration": "2023_11_01_115900_create_wallet_history",
+  "batch": 7
+},
+{
+  "_id": {
+    "$oid": "654481f53bfe59acca0184f2"
+  },
+  "migration": "2023_11_03_051508_create__end_customer_services",
+  "batch": 8
+},
+{
+  "_id": {
+    "$oid": "654482e735d00ecda1046302"
+  },
+  "migration": "2023_11_03_051922_create__service_end_cust",
+  "batch": 9
+},
+{
+  "_id": {
+    "$oid": "6544833bea5cdd338a0e8262"
+  },
+  "migration": "2023_11_03_052039_service_end_cust",
+  "batch": 10
+},
+{
+  "_id": {
+    "$oid": "654483b79de46bde56099af2"
+  },
+  "migration": "2023_11_03_052247_create__end_cust_service",
+  "batch": 11
+},
+{
+  "_id": {
+    "$oid": "6544cd5428d60de1a80c5c92"
+  },
+  "migration": "2023_11_03_103628_create_failed_payment",
+  "batch": 12
+}]

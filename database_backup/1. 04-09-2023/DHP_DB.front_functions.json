@@ -1,0 +1,288 @@
+[{
+  "_id": {
+    "$oid": "64f5614cd91940ed8a096ec2"
+  },
+  "uuid": "64f5614c3e00b",
+  "controller_name": "admin",
+  "status": 1,
+  "created_on": {},
+  "function_name": "department_list",
+  "alias": "Department List",
+  "category": "Department Management",
+  "updated_at": {
+    "$date": "2023-09-04T04:47:08.254Z"
+  },
+  "created_at": {
+    "$date": "2023-09-04T04:47:08.254Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64f5614cd91940ed8a096ec3"
+  },
+  "uuid": "64f5614c3f034",
+  "controller_name": "admin",
+  "status": 1,
+  "created_on": {},
+  "function_name": "department_edit",
+  "alias": "Department Edit",
+  "category": "Department Management",
+  "updated_at": {
+    "$date": "2023-09-04T04:47:08.258Z"
+  },
+  "created_at": {
+    "$date": "2023-09-04T04:47:08.258Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64f5614cd91940ed8a096ec4"
+  },
+  "uuid": "64f5614c3f3ef",
+  "controller_name": "admin",
+  "status": 1,
+  "created_on": {},
+  "function_name": "department_remove",
+  "alias": "Department Remove",
+  "category": "Department Management",
+  "updated_at": {
+    "$date": "2023-09-04T04:47:08.259Z"
+  },
+  "created_at": {
+    "$date": "2023-09-04T04:47:08.259Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64f5614cd91940ed8a096ec5"
+  },
+  "uuid": "64f5614c3f7bb",
+  "controller_name": "admin",
+  "status": 1,
+  "created_on": {},
+  "function_name": "department_create",
+  "alias": "Department Create",
+  "category": "Department Management",
+  "updated_at": {
+    "$date": "2023-09-04T04:47:08.260Z"
+  },
+  "created_at": {
+    "$date": "2023-09-04T04:47:08.260Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64f5614cd91940ed8a096ec6"
+  },
+  "uuid": "64f5614c3fd51",
+  "controller_name": "admin",
+  "status": 1,
+  "created_on": {},
+  "function_name": "user_list",
+  "alias": "user List",
+  "category": "User Management",
+  "updated_at": {
+    "$date": "2023-09-04T04:47:08.261Z"
+  },
+  "created_at": {
+    "$date": "2023-09-04T04:47:08.261Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64f5614cd91940ed8a096ec7"
+  },
+  "uuid": "64f5614c4015e",
+  "controller_name": "admin",
+  "status": 1,
+  "created_on": {},
+  "function_name": "user_edit",
+  "alias": "user Edit",
+  "category": "User Management",
+  "updated_at": {
+    "$date": "2023-09-04T04:47:08.262Z"
+  },
+  "created_at": {
+    "$date": "2023-09-04T04:47:08.262Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64f5614cd91940ed8a096ec8"
+  },
+  "uuid": "64f5614c40528",
+  "controller_name": "admin",
+  "status": 1,
+  "created_on": {},
+  "function_name": "user_remove",
+  "alias": "user Remove",
+  "category": "User Management",
+  "updated_at": {
+    "$date": "2023-09-04T04:47:08.263Z"
+  },
+  "created_at": {
+    "$date": "2023-09-04T04:47:08.263Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64f5614cd91940ed8a096ec9"
+  },
+  "uuid": "64f5614c408f6",
+  "controller_name": "admin",
+  "status": 1,
+  "created_on": {},
+  "function_name": "user_create",
+  "alias": "user Create",
+  "category": "User Management",
+  "updated_at": {
+    "$date": "2023-09-04T04:47:08.264Z"
+  },
+  "created_at": {
+    "$date": "2023-09-04T04:47:08.264Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64f5614cd91940ed8a096eca"
+  },
+  "uuid": "64f5614c40cc2",
+  "controller_name": "admin",
+  "status": 1,
+  "created_on": {},
+  "function_name": "offer_list",
+  "alias": "offer List",
+  "category": "offer Management",
+  "updated_at": {
+    "$date": "2023-09-04T04:47:08.265Z"
+  },
+  "created_at": {
+    "$date": "2023-09-04T04:47:08.265Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64f5614cd91940ed8a096ecb"
+  },
+  "uuid": "64f5614c41090",
+  "controller_name": "admin",
+  "status": 1,
+  "created_on": {},
+  "function_name": "offer_edit",
+  "alias": "offer Edit",
+  "category": "offer Management",
+  "updated_at": {
+    "$date": "2023-09-04T04:47:08.266Z"
+  },
+  "created_at": {
+    "$date": "2023-09-04T04:47:08.266Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64f5614cd91940ed8a096ecc"
+  },
+  "uuid": "64f5614c4147b",
+  "controller_name": "admin",
+  "status": 1,
+  "created_on": {},
+  "function_name": "offer_remove",
+  "alias": "offer Remove",
+  "category": "offer Management",
+  "updated_at": {
+    "$date": "2023-09-04T04:47:08.267Z"
+  },
+  "created_at": {
+    "$date": "2023-09-04T04:47:08.267Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64f5614cd91940ed8a096ecd"
+  },
+  "uuid": "64f5614c4184e",
+  "controller_name": "admin",
+  "status": 1,
+  "created_on": {},
+  "function_name": "offer_create",
+  "alias": "offer Create",
+  "category": "offer Management",
+  "updated_at": {
+    "$date": "2023-09-04T04:47:08.268Z"
+  },
+  "created_at": {
+    "$date": "2023-09-04T04:47:08.268Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64f5614cd91940ed8a096ece"
+  },
+  "uuid": "64f5614c41c18",
+  "controller_name": "admin",
+  "status": 1,
+  "created_on": {},
+  "function_name": "hello_list",
+  "alias": "hello List",
+  "category": "hello Management",
+  "updated_at": {
+    "$date": "2023-09-04T04:47:08.269Z"
+  },
+  "created_at": {
+    "$date": "2023-09-04T04:47:08.269Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64f5614cd91940ed8a096ecf"
+  },
+  "uuid": "64f5614c41fe8",
+  "controller_name": "admin",
+  "status": 1,
+  "created_on": {},
+  "function_name": "hello_edit",
+  "alias": "hello Edit",
+  "category": "hello Management",
+  "updated_at": {
+    "$date": "2023-09-04T04:47:08.270Z"
+  },
+  "created_at": {
+    "$date": "2023-09-04T04:47:08.270Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64f5614cd91940ed8a096ed0"
+  },
+  "uuid": "64f5614c423b2",
+  "controller_name": "admin",
+  "status": 1,
+  "created_on": {},
+  "function_name": "hello_remove",
+  "alias": "hello Remove",
+  "category": "hello Management",
+  "updated_at": {
+    "$date": "2023-09-04T04:47:08.271Z"
+  },
+  "created_at": {
+    "$date": "2023-09-04T04:47:08.271Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64f5614cd91940ed8a096ed1"
+  },
+  "uuid": "64f5614c427a3",
+  "controller_name": "admin",
+  "status": 1,
+  "created_on": {},
+  "function_name": "hello_create",
+  "alias": "hello Create",
+  "category": "hello Management",
+  "updated_at": {
+    "$date": "2023-09-04T04:47:08.272Z"
+  },
+  "created_at": {
+    "$date": "2023-09-04T04:47:08.272Z"
+  }
+}]

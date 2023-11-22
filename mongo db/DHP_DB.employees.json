@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "64f5bad7b29e3b3b9306a20d"
+  },
+  "employee_code": "64F5BAD7311B1",
+  "department_uuid": "SWxjd3JNckpyMFg5YXlWRnpqOVBhQT09",
+  "date_of_birth": "2023-09-02",
+  "employee_first_name": "Sachin",
+  "employee_last_name": "Sharma",
+  "date_of_joining": "2023-09-03",
+  "gender": "male",
+  "designation": "CEO (Chief Executive Officer)",
+  "email_id": "sachinsharma3050@gmail.com",
+  "password": "$2y$10$epq7tK9GSxL54013qMaijeEb4xq9VWotUeaw3zKoB9glR3t2ywNNm",
+  "mobile_number": "7777070432",
+  "blood_group": "A+",
+  "country": "101",
+  "state": "13",
+  "city": "1192",
+  "address": "test",
+  "pin_code": "131001",
+  "emergency_contact": "1000000000",
+  "office_email": "sachin@maishainfotech.com",
+  "office_mobile": "2020202020",
+  "pan_card_number": "ABCTY1234D",
+  "address_proof_id_no": "test address",
+  "employee_bank_name": "Macy Soto",
+  "bank_account_holder_name": "Ulla Nielsen",
+  "bank_account_type": "saving",
+  "bank_account_number": "909090909090",
+  "confirm_account_number": "909090909090",
+  "bank_ifsc_code": "ABAB5050",
+  "bank_branch": "Ut dignissimos culpa",
+  "bank_city": "Livingstone",
+  "reference_name": "TEST",
+  "employee_status": "active",
+  "created_at": {
+    "$date": "2023-09-04T11:09:11.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-09-04T12:52:13.000Z"
+  },
+  "upload_other_documents": "BJVVqESeFkvXYXab6SJnbpIPxgSqdPSlcHCXQnV1.png,EA4ROe2bqtbCsP30PBItS5P1ze7n5YABFb6IwVvd.jpg,GqzjzrNXSe8LKlJ6MV5j384rbTWGydjvw0aUjy0U.webp,YzrT2LFmTZCLS1d3yKkPX1YBqymepuAIzCQyQ0bz.jpg,AyhFTeIxDUGOdar69PDgwPYhb5yTNGcLtVe3lXms.pdf,Fx8Ep2ZS9MvBsW1Guqp0JOlxqrQ9dN7LB3k06I7k.pdf,8peVtvl8mzsRp3qUzRNQWjn9LUSGDiNFR6uNvKcs.jpg,XkiSZJ8hobh0mAgclqbMPRGGP0NcwwHYXvSd0Qge.png,2H58sIU8RhMKQmmI1gdaIjy328nBZIowvao0CJDI.jpg,S6bbvEcd7R2hQOVBe4gVlGF44t9FEZuvdjPfjn86.webp,7RZFHTE4w2cVYmrbKNAhgwBg74woLjQY6Lf0FekZ.png,R3ZkRMVDXDITwKcbt4hJ7n6BnsYj1C44saQmGfbS.pdf",
+  "employee_profile": "4JyAEQzCuuFOcjQnQYRBR0TVVojMoqc5YfsPYda1.png",
+  "upload_pan_card_attachment": "xTo9Og8vRPOimJwkSjvzlWHlEnBDwnjjtdaEq1Kp.webp",
+  "upload_adhaar_card_attachment": "mgcj8ailo7SVShzQaHQkgoqdTp2rdu5EYWdLbT7A.png",
+  "upload_resume_attachment": "X8yderQFVvnVLuXTaM8Xl9VA1QN2UUIsZuXSaXXu.pdf",
+  "adhaar_card_number": "123123213213"
+}]

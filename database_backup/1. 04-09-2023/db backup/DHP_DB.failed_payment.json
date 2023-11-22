@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "6544d50b04747d1b610c7842"
+  },
+  "vendor_id": "SSVENDOR1122",
+  "merchant_id": "107249",
+  "service_id": "SSER1122",
+  "merchant_access_code": "8212304e-59b4-446c-97ba-17b30d8afb18",
+  "unique_merchant_txn_id": "SMART19571",
+  "pine_pg_txn_status": "-7",
+  "txn_completion_date_time": "03/11/2023 04:39:58 PM",
+  "amount_in_paisa": "20000",
+  "txn_response_code": "-45",
+  "txn_response_msg": "CAPTURE REJECTED BY ACQUIRER",
+  "acquirer_name": "HDFC",
+  "pine_pg_transaction_id": "13558712",
+  "captured_amount_in_paisa": "",
+  "refund_amount_in_paisa": "0",
+  "payment_mode": "1",
+  "masked_card_number": "************1112",
+  "udf_field_1": "",
+  "udf_field_2": "",
+  "udf_field_3": "",
+  "udf_field_4": "",
+  "card_holder_name": "Test",
+  "salted_card_hash": "B6B6A7CE1E6E2AA0DD7C028385446A3BBADCEE026A283859C69F5D2B8CC645AD",
+  "rrn": "425847096720",
+  "auth_code": "999999",
+  "parent_txn_status": "",
+  "parent_txn_response_code": "",
+  "parent_txn_response_message": "",
+  "dia_secret": "6D9F529F666E050A76207E33FC57A27D1013D56A776AC7E60625E5A4F70497A2",
+  "dia_secret_type": "SHA256",
+  "final_amt": 200,
+  "updated_at": {
+    "$date": "2023-11-03T11:10:03.068Z"
+  },
+  "created_at": {
+    "$date": "2023-11-03T11:10:03.068Z"
+  }
+}]

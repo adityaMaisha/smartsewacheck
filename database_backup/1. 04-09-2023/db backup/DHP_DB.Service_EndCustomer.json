@@ -1,0 +1,51 @@
+[{
+  "_id": {
+    "$oid": "6545f7eb74a0fdf6be053532"
+  },
+  "added_by": "SSVENDOR1122",
+  "service_name": "test service Up",
+  "service_category": "DHP",
+  "del_mode": "At store",
+  "service_price": "99",
+  "disease": "Not Applicable",
+  "attach_organ": "Not Applicable",
+  "time_consume": "9",
+  "service_pincode": "110092",
+  "ser_details": "test",
+  "customer_gender": "male",
+  "ageGroup": "10-11",
+  "startDateTime": "2023-11-04T13:20",
+  "endDateTime": "2023-11-25T13:20",
+  "updated_at": {
+    "$date": "2023-11-04T10:10:13.690Z"
+  },
+  "created_at": {
+    "$date": "2023-11-04T07:51:07.301Z"
+  },
+  "flag": "1"
+},
+{
+  "_id": {
+    "$oid": "6546146b74a0fdf6be053533"
+  },
+  "added_by": "SSVENDOR1122",
+  "service_name": "test service 1 new",
+  "service_category": "DHP",
+  "del_mode": "At store",
+  "service_price": "99",
+  "disease": null,
+  "attach_organ": null,
+  "time_consume": "9",
+  "service_pincode": null,
+  "ser_details": "test",
+  "customer_gender": "male",
+  "ageGroup": "10-11",
+  "startDateTime": "2023-11-04T13:20",
+  "endDateTime": "2023-11-25T13:20",
+  "updated_at": {
+    "$date": "2023-11-04T10:18:20.657Z"
+  },
+  "created_at": {
+    "$date": "2023-11-04T09:52:43.598Z"
+  }
+}]

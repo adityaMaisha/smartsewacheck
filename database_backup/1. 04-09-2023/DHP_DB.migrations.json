@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "64ec46fcddf3f1481d063ac2"
+  },
+  "migration": "2019_12_14_000001_create_personal_access_tokens_table",
+  "batch": 1
+},
+{
+  "_id": {
+    "$oid": "64ec91f7d065b00b79039f52"
+  },
+  "migration": "2023_08_28_062754_create_employees_table",
+  "batch": 2
+},
+{
+  "_id": {
+    "$oid": "64eda24de74e3daca10bbba2"
+  },
+  "migration": "2023_08_29_074432_create_ec_front_functions_table",
+  "batch": 3
+},
+{
+  "_id": {
+    "$oid": "64eda9ddc66753bedc08f702"
+  },
+  "migration": "2023_08_29_081550_create_roles_type_table",
+  "batch": 4
+},
+{
+  "_id": {
+    "$oid": "64eda9ddc66753bedc08f703"
+  },
+  "migration": "2023_08_29_081801_create_set_permission_table",
+  "batch": 4
+},
+{
+  "_id": {
+    "$oid": "64eda9dec66753bedc08f704"
+  },
+  "migration": "2023_08_29_081822_create_front_functions_table",
+  "batch": 4
+}]

@@ -1,0 +1,75 @@
+[{
+  "_id": {
+    "$oid": "64f6d80214b015bcf7013a83"
+  },
+  "uuid": "64f6d80239885",
+  "client_id": null,
+  "first_name": "Nitin",
+  "middle_name": "Sharma",
+  "last_name": "Pandit",
+  "gender": "male",
+  "date_of_birth": "06/02/2023",
+  "blood_group": "O+",
+  "email_address": "nitin@gmail.com",
+  "mobile_number": "1231231321",
+  "login_password": "$2y$10$Tj5mChbdlsJFWbnOuM1XJ.HMxXDwiiRNoVFV73HBs2CojZpPZrjbi",
+  "address": "Sachin@123",
+  "updated_at": {
+    "$date": "2023-09-05T07:25:54.335Z"
+  },
+  "created_at": {
+    "$date": "2023-09-05T07:25:54.335Z"
+  },
+  "status": "active",
+  "subcribtion_status": ""
+},
+{
+  "_id": {
+    "$oid": "64f6dcd514b015bcf7013a84"
+  },
+  "uuid": "64f6dcd5d3911",
+  "client_id": null,
+  "first_name": "Sonu",
+  "middle_name": null,
+  "last_name": null,
+  "gender": "male",
+  "date_of_birth": "06/01/2023",
+  "blood_group": "B+",
+  "email_address": "sonu@gmail.com",
+  "mobile_number": "1212121000",
+  "login_password": "$2y$10$htKH4l8KB.bTlaEBgjiw4O0kfaTu8GcDamYn7Q3qOkSsOCNQW26LS",
+  "address": null,
+  "subcribtion_status": null,
+  "status": "active",
+  "updated_at": {
+    "$date": "2023-09-05T07:46:29.934Z"
+  },
+  "created_at": {
+    "$date": "2023-09-05T07:46:29.934Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64f709e214b015bcf7013a85"
+  },
+  "uuid": "64f709e21cdc7",
+  "client_id": null,
+  "first_name": "Anup",
+  "middle_name": "Mittal",
+  "last_name": "Ji",
+  "gender": "male",
+  "date_of_birth": "06/01/2023",
+  "blood_group": "O+",
+  "email_address": "anup@gmail.com",
+  "mobile_number": "8888888888",
+  "login_password": "$2y$10$nt1Aphm1BoPCi8MnT6v/2e62h6j3qezw3EWjV8/uvdd/SEFgg11WO",
+  "address": "Test My Address",
+  "subcribtion_status": null,
+  "status": "active",
+  "updated_at": {
+    "$date": "2023-09-05T10:58:42.187Z"
+  },
+  "created_at": {
+    "$date": "2023-09-05T10:58:42.187Z"
+  }
+}]

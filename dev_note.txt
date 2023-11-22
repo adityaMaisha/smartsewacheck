@@ -1,0 +1,205 @@
+---------------------------------------------------------------------
+
+php artisan make:model Employee -mcr
+
+-m, --migration Create a new migration file for the model.
+-c, --controller Create a new controller for the model.
+-r, --resource Indicates if the generated controller should be a resource controller
+
+---------------------------------------------------------------------
+
+
+    public function up()
+    {
+        Schema::create('employees', function (Blueprint $table) {
+            $table->id();
+            /* = = [ Personal Detail ] = = */
+            $table->string('employee_code')->unique();
+            $table->string('profile_photo')->unique();
+            $table->string('first_name');
+            $table->string('last_name');
+            $table->string('email')->unique();
+            $table->string('phone_number')->unique();
+            $table->string('password');
+            $table->string('office_email')->unique();
+            $table->string('office_phone_number')->unique();
+            $table->timestamp('email_verified_at')->nullable();
+            $table->timestamp('phone_verified_at')->nullable();
+            $table->date('date_of_birth')->nullable();
+            $table->timestamp('date_of_joining')->default(DB::raw('CURRENT_TIMESTAMP'));
+            $table->enum('gender', ['male', 'female', 'other']);
+            $table->string('department_id')->nullable()->comment('department_id and role_id both are same');
+            $table->string('blood_group')->nullable();
+            $table->string('country_id')->nullable();
+            $table->string('state_id')->nullable();
+            $table->string('city_id')->nullable();
+            $table->string('address');
+            $table->string('pincode');
+            $table->string('emergency_contact_number');
+            $table->enum('employee_status', ['active', 'inactive'])->default('inactive');
+
+            /* = = [ Certifications ] = = */
+            $table->string('pan_card_number');
+            $table->string('pan_card_attachment');
+            $table->string('address_proof_id_number');
+            $table->string('address_proof_id_attachment');
+            $table->string('other_documents_attachment');
+
+            /* = = [ Bank Details ] = = */
+            $table->string('bank_name');
+            $table->string('account_holder_name');
+            $table->enum('account_type', ['saving', 'current']);
+            $table->string('account_number');
+            $table->string('ifsc_code');
+            $table->string('bank_branch');
+            $table->string('bank_city');
+
+            /* = = [ Other ] = = */
+            $table->string('reference')->nullable();
+            $table->timestamps();
+        });
+    }
+
+
+
+---------------------------------------------------------------------
+
+php artisan migrate:fresh
+
+
+--------------------------------------------------------------------
+
+// Insert
+
+
+                $insertedID = Employee::create([
+                    'employee_code' => 'ADMIN9050',
+                    'profile_photo' => NULL,
+                    'first_name' => 'Sachin',
+                    'last_name' => 'Sharma',
+                    'email' => 'admin@gmail.com',
+                    'phone_number' => '7777070432',
+                    'password' => Hash::make('Admin@123'),
+                    'office_email' => 'admin@gmail.com',
+                    'office_phone_number' => '1234567890',
+                    'email_verified_at' => now(),
+                    'phone_verified_at' => now(),
+                    'date_of_birth' => '1992-11-06',
+                    'date_of_joining' => now(),
+                    'gender' => 'male',
+                    'department_id' => 'IT',
+                    'blood_group' => 'O+',
+                    'country_id' => '1',
+                    'state_id' => '1',
+                    'city_id' => '1',
+                    'address' => '123 Main Street',
+                    'pincode' => '131001',
+                    'emergency_contact_number' => '1234567890',
+                    'employee_status' => 'active',
+                    'pan_card_number' => NULL,
+                    'pan_card_attachment' => NULL,
+                    'address_proof_id_number' => NULL,
+                    'address_proof_id_attachment' => NULL,
+                    'other_documents_attachment' => NULL,
+                    'bank_name' => 'XYZ Bank',
+                    'account_holder_name' => 'Sachin Tendulkar',
+                    'account_type' => 'saving',
+                    'account_number' => '0123456789',
+                    'ifsc_code' => 'XYZA1234567',
+                    'bank_branch' => 'Mumbai Main',
+                    'bank_city' => 'Mumbai',
+                    'reference_id' => NULL,
+                ]);
+
+
+-------------------------------------------------------------
+
+
+
+
+----------------------------------------------
+
+(src=")
+
+to
+
+src="{{ asset('
+
+
+
+
+
+(\.js">)
+
+to
+
+.js') }}"
+
+
+
+
+
+(\.png")
+
+to
+
+.png') }}"
+
+
+
+
+
+
+
+
+(\.jpg")
+
+to
+
+.jpg') }}"
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Jenssegers\Mongodb\Eloquent\Model;
+
+class VendorPathLab extends Model
+{
+    use HasFactory;
+    protected $collection = 'vendor_path_lab';
+    protected $guarded = [];
+
+    public function getState()
+    {
+        return $this->belongsTo(states::class, 'state_id', 'id');
+        // Model  =>  states::class
+        // Model  =>  vendor_path_lab table and column state_id
+        // Model =>   states table and column id
+    }
+
+}
+
+
+
+@foreach ($getVendorPathLab as $PathLab)
+    <tr>
+        <td>{{ $loop->iteration  }}</td>
+        <td>{{ $PathLab->vendor_id }}</td>
+        <td>{{ $PathLab->getState->name ?? '' }} / {{ $PathLab->getCity->name ?? '' }}</td>
+        <td>{{ $PathLab->office_email }}</td>
+        <td>
+            <a href="#" class="btn btn-sm btn-edit"><i class="fas fa-eye"></i> &nbsp; View &nbsp;</a>
+            <a href="#" class="btn btn-sm btn-edit"><i class="fas fa-edit"></i> &nbsp; Edit &nbsp;</a>
+            <a href="#" class="btn btn-sm btn-remove" onclick="return confirm('Are you sure?')"><i class="fas fa-trash"></i> &nbsp; Delete</a>
+        </td>
+    </tr>
+@endforeach
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
